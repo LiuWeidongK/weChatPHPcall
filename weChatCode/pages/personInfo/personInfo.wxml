@@ -1,0 +1,64 @@
+<view class="menuView">
+  <view class="menuTextView1">
+      <text>No.</text>
+  </view>
+  <view class="menuTextView2">
+      <input class="inputText" value="{{arr.id}}" id="id" bindchange="bindChange"/>
+  </view>
+  <view class="menuImgView">
+    <image class="rightIco" src="../picture/rightIco2.png"></image>
+  </view>
+</view>
+
+<view class="menuView">
+  <view class="menuTextView1">
+      <text>Name</text>
+  </view>
+  <view class="menuTextView2">
+      <input class="inputText" value="{{arr.name}}" id="name" bindchange="bindChange"/>
+  </view>
+  <view class="menuImgView">
+    <image class="rightIco" src="../picture/rightIco2.png"></image>
+  </view>
+</view>
+
+<view class="menuView">
+  <view class="menuTextView1">
+      <text>College</text>
+  </view>
+  <view class="menuTextView2">
+      <input class="inputText" value="{{arr.college}}" id="college" bindchange="bindChange"/>
+  </view>
+  <view class="menuImgView">
+    <image class="rightIco" src="../picture/rightIco2.png"></image>
+  </view>
+</view>
+
+<view class="menuView">
+  <view class="menuTextView1">
+      <text>Class</text>
+  </view>
+  <view class="menuTextView2">
+      <input class="inputText" value="{{arr._class}}" id="_class" bindchange="bindChange"/>
+  </view>
+  <view class="menuImgView">
+    <image class="rightIco" src="../picture/rightIco2.png"></image>
+  </view>
+</view>
+
+<view class="menuView">
+  <view class="menuTextView1">
+      <text>Telephone</text>
+  </view>
+  <view class="menuTextView2">
+      <input class="inputText" value="{{arr.tel}}" id="tel" bindchange="bindChange"/>
+  </view>
+  <view class="menuImgView">
+    <image class="rightIco" src="../picture/rightIco2.png"></image>
+  </view>
+</view>
+
+<view class="submitBtn">
+  <button bindtap="submitBtn">Submit</button>
+</view>
+

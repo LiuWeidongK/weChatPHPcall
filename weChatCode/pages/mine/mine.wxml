@@ -1,0 +1,37 @@
+
+<view>
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    <view class="viewIco">
+      <image class="rightIco" src="../picture/rightIco2.png"></image>
+    </view>
+  </view>
+
+  <view class="menuView" bindtap="myLesson">
+    <view class="menuTextView">
+       <text>My Lessons</text>
+    </view>
+    <view class="menuImgView">
+      <image class="rightIco" src="../picture/rightIco2.png"></image>
+    </view>
+  </view>
+
+  <view class="menuView" bindtap="bindingLesson">
+    <view class="menuTextView">
+       <text>Binding New Lesson</text>
+    </view>
+    <view class="menuImgView">
+      <image class="rightIco" src="../picture/rightIco2.png"></image>
+    </view>
+  </view>
+
+  <view class="menuView" bindtap="record">
+    <view class="menuTextView">
+       <text>Record</text>
+    </view>
+    <view class="menuImgView">
+      <image class="rightIco" src="../picture/rightIco2.png"></image>
+    </view>
+  </view>
+</view>

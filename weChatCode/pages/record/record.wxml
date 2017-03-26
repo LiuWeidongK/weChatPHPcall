@@ -1,0 +1,25 @@
+<template name="mainItem">
+  <view class="main">
+    <view class="content">
+      <view class="mainText">
+        {{item.lessonName}}
+      </view>
+      <view class="minorText">
+        <view class="followText">
+          <view class="title">Date:</view>{{item.date}}
+        </view>
+        <view class="followText">
+          <view class="title">Tel:</view>{{item.tel}}
+        </view>
+      </view>
+    </view>
+    <view class="iconView">
+      <icon wx:if="{{item.state == 1}}" class="iconImg" type="success_circle"></icon>
+      <icon wx:if="{{item.state == 0}}" class="iconImg" type="cancel"></icon>
+    </view>
+  </view>
+</template>
+
+<block wx:for="{{arr}}">
+  <template is="mainItem" data="{{item}}" />
+</block>

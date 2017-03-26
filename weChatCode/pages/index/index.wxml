@@ -1,0 +1,12 @@
+<view class="content">
+  <view class="imgView" bindtap="scanCode">
+    <image class="imgGlobe" src="../picture/globe.png"></image>
+    <text class="text">Scan code</text>
+  </view>
+  <view class="imgView" bindtap="inputCode">
+    <image class="imgGlobe" src="../picture/globe.png"></image>
+    <view>
+      <input bindconfirm="confirmInput" class="input" placeholder-class="inputText" placeholder="Input Code" focus="{{focus}}"/>
+    </view>
+  </view>
+</view>

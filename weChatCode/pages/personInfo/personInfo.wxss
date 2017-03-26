@@ -1,0 +1,46 @@
+page{
+   background-color:#f2f2f2;
+}
+
+.rightIco {
+  width:21rpx;
+  height:21rpx;
+}
+
+.menuView{
+  margin-top: 25rpx;
+  display: flex;
+  background-color:#ffffff;
+  height: 100rpx;
+}
+
+.menuTextView1{
+  align-self: center;
+  margin-left: 20rpx;
+  width: 150rpx;
+  color: #000000;
+  font-family: 楷体;
+  font-size: 37rpx;
+}
+
+.menuTextView2{
+  align-self: center;
+  text-align: right;
+  margin-left: 70rpx;
+  width: 455rpx;
+}
+
+.inputText{
+  color: #727272;
+  font-family: 楷体;
+  font-size: 35rpx;
+}
+
+.menuImgView{
+  align-self:center;
+  margin:0 0 0 14rpx;
+}
+
+.submitBtn{
+  margin-top: 120rpx;
+}

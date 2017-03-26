@@ -1,0 +1,24 @@
+<template name="mainItem">
+  <view class="main">
+    <view class="content">
+      <view class="mainText">
+        {{item.lessonName}}
+      </view>
+      <view class="minorText">
+        <view class="followText">
+          <view class="title">Name:</view>{{item.teacherName}}
+        </view>
+        <view class="followText">
+          <view class="title">Tel:</view>{{item.teacherTel}}
+        </view>
+      </view>
+    </view>
+    <view data-id="{{item.lessonNo}}" class="deleteView" bindtap="delItem">
+      <view class="deleteBtn">删除</view>
+    </view>
+  </view>
+</template>
+
+<block wx:for="{{arr}}">
+  <template is="mainItem" data="{{item}}" />
+</block>

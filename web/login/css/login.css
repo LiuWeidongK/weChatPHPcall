@@ -1,0 +1,21 @@
+form.form-horizontal {
+    margin-top: 2.5%;
+    margin-left: 28.8888%;
+}
+
+h1.oTitle {
+    margin-top: 3%;
+    text-align: center;
+}
+
+input#signIn {
+    margin-left: 40px;
+}
+
+div.content {
+    width: 1600px;
+}
+
+form#registerForm {
+    margin-left: 0;
+}

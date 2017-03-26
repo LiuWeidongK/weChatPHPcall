@@ -1,0 +1,113 @@
+div#content1,#content2,#content3 {
+    border-left: 1px solid #e7e7e7;
+    margin-left: 250px;
+    height: 700px;
+}
+
+h1.sub-header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+div#btn-group {
+    float: right;
+    margin-right: 50px;
+}
+
+nav#top {
+    margin-bottom: 0;
+}
+
+div#infoListLeft {
+    font-size: 19px;
+    margin-left: 40px;
+    margin-right: 25px;
+}
+
+div#infoListRight {
+    margin-left: 35px;
+    margin-right: 25px;
+}
+
+img.erCodeImg {
+   width: 190px;
+}
+
+div#modalContent {
+    display: flex;
+}
+
+div.modalLeftDiv {
+    width: 460px;
+    height: 400px;
+    border-right: 1px solid #e5e5e5;
+    display: inline;
+    position:relative;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+
+div.modalRightDiv {
+    width: 408px;
+    height: 400px;
+}
+
+img.userImg{
+    width: 74px;
+    border-radius: 50%;
+    padding: 5px 5px 0 5px;
+    margin: 5px 5px 0 5px;
+}
+
+.nameDiv{
+    width: 74px;
+    padding: 0 5px;
+    margin: 0 5px;
+    text-align: center;
+}
+
+.onceDiv{
+    height: 100px;
+    display: inline-block;
+}
+
+img.erCodeImg2{
+    width: 270px;
+    margin: 0 0 0 69px;
+}
+
+h1.codeNumber{
+    text-align: center;
+    margin: 0;
+}
+
+div.timesDiv{
+    text-align: center;
+    font-size: 30px;
+}
+
+button#startBtn{
+    width: 165px;
+    margin-left: 120px;
+}
+
+#content2,#content3{
+    display: none;
+}
+
+li,.getInfo{
+    cursor:pointer
+}
+
+.table-responsive {
+    overflow-x: initial;
+}
+
+span.lessonNo{
+    display: none;
+}
+
+h3#btnText{
+    float: right;
+    margin-top: 0;
+}

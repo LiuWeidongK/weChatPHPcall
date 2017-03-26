@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/personInfo/personInfo",
+    "pages/mine/mine",
+    "pages/myLessons/myLessons",
+    "pages/record/record"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "Mata v1.0",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "index",
+        "iconPath": "pages/picture/weChat3.png",
+        "selectedIconPath": "pages/picture/weChat4.png"
+      },{
+        "pagePath": "pages/mine/mine",
+        "text": "mine",
+        "iconPath": "pages/picture/weChat3.png",
+        "selectedIconPath": "pages/picture/weChat4.png"
+      }
+    ]
+  }
+}

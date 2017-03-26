@@ -1,0 +1,42 @@
+page{
+    background-color: #ffffff;
+}
+
+.content{
+    display: flex;
+    margin-top: 100rpx;
+}
+
+.imgView{
+    margin: 73rpx;
+}
+
+.imgGlobe{
+    width: 220rpx;
+    height: 220rpx;
+}
+
+.text{
+    margin:14rpx;
+    font-family: 楷体;
+    color: #4a4a4a;
+}
+
+.inputText{
+    font-family: 楷体;
+    color: #5a5a5a;
+    margin-left: 18rpx;
+}
+
+.input{
+    background-color: #f9f9f9;
+}
+
+.picker{
+    font-family: 楷体;
+    color: #5a5a5a;
+}
+
+.pickerView{
+    margin: 150rpx;
+}

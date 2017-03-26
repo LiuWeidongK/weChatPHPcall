@@ -1,0 +1,45 @@
+page {
+  background-color: #f2f2f2;
+}
+
+.main {
+  display: flex;
+  background-color: #fff;
+  margin-top: 20rpx;
+  height: 120rpx;
+}
+
+.content {
+  width: 660rpx;
+}
+
+.mainText {
+  margin-left: 30rpx;
+  font-family: 楷体;
+  font-size: 42rpx;
+}
+
+.minorText {
+  display: block;
+  font-size: 28rpx;
+  color: #aaa;
+  margin-left: 40rpx;
+}
+
+.followText {
+  margin-left: 20rpx;
+  margin-top: 5rpx;
+  display: flex;
+  color: #b2b2b2;
+}
+
+.title {
+  font-weight: bold;
+  color: #9a9a9a;
+}
+
+.iconImg{
+    margin-top: 38rpx;
+    margin-left: 6rpx;
+    color: #494949;
+}
